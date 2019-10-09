@@ -15,7 +15,7 @@
 
 'use strict';
 
-const google = require('googleapis');
+const {google} = require('googleapis');
 const gmail = google.gmail('v1');
 const querystring = require('querystring');
 const pify = require('pify');
